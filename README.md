@@ -13,15 +13,15 @@ alerts could be as follows:
 
 <FILE_NAME> IS DELETED  
 
-<FILE_NAME> HAS BEEN REMOvED  
+<FILE_NAME> HAS BEEN REMOVED  
 
 i am attaching a flowchart on the running of this project.
 
 also attaching a Files.zip file 
 
-to run the project just open fim,ps1 with powershell because it is a bash scriptand you will be looking at 2 options named as collect baseline and start monitoring. 
+to run the project just open FileIntegrityManager.ps1 with powershell because it is a bash scriptand you will be looking at 2 options named as collect baseline and start monitoring. 
 
-here if you select collect baseline the software will be collecting the hashes of all the files which would be there in the target folder ( can be modified in the source code ) which is Files by default and after collecting the baseline he window would be closed so you will be needing to open the same file with powershell again and then start monitoring it after selecting then it will be looking at all the activities of the files like mentioned above..
+here if you select collect baseline the software will be collecting the hashes of all the files which would be there in the target folder ( can be modified in the source code at line 31 & 56 ) which is Files by default and after collecting the baseline he window would be closed so you will be needing to open the same file with powershell again and then start monitoring it after selecting then it will be looking at all the activities of the files like mentioned above..
 
 all you have to do id extract the Files.zip or create a folder with name 'Files' and add some files into it like:
 
