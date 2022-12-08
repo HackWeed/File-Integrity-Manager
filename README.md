@@ -9,9 +9,11 @@ checking the hashes of all the files contained by that particular folder/directo
 as soon as any of the file gets any changes according to calculation made using hashes it will be giving alerts to the user 
 alerts could be as follows:
 
-<FILE_NAME> IS CHANGED
-<FILE_NAME> IS DELETED
-<FILE_NAME> HAS BEEN REMOvED
+<FILE_NAME> IS CHANGED  
+
+<FILE_NAME> IS DELETED  
+
+<FILE_NAME> HAS BEEN REMOvED  
 
 to run the project just open fim,ps1 with powershell because it is a bash scriptand you will be looking at 2 options named as collect baseline and start monitoring. 
 
