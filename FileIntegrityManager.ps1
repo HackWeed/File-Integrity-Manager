@@ -27,7 +27,8 @@ if ($response -eq "A".ToUpper()) {
 
     # Calculate Hash from the target files and store in baseline.txt
     # Collect all files in the target folder
-    $files = Get-ChildItem -Path .\Files
+   
+   $files = Get-ChildItem -Path .\Files
 
     # For each file, calculate the hash, and write to baseline.txt
     foreach ($f in $files) {
