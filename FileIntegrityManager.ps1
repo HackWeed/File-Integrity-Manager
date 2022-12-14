@@ -11,7 +11,12 @@ Function Erase-Baseline-If-Already-Exists() {
     }
 }
 
-
+Write-Host " _   _            _   __        __            _ "
+Write-Host "| | | | __ _  ___| | _\ \      / /__  ___  __| |"
+Write-Host "| |_| |/ _` |/ __| |/ /\ \ /\ / / _ \/ _ \/ _` |"
+Write-Host "|  _  | (_| | (__|   <  \ V  V /  __/  __/ (_| |"   
+Write-Host "|_| |_|\__,_|\___|_|\_\  \_/\_/ \___|\___|\__,_|"
+Write-Host "                                                "
 Write-Host ""
 Write-Host "What would you like to do?"
 Write-Host ""
